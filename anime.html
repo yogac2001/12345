@@ -1,0 +1,42 @@
+<html>
+    <head><title></title>
+        <style>
+            #box1{
+                border: solid 2px rgb(161, 21, 21);
+                width: 200px;
+                height: 200px;
+                margin-left: 20px;
+                padding-left: 20px;
+                padding-top: 20px;
+                background-color: royalblue;
+                background-image:url("1.PNG") ;
+                
+            }
+            .xyz{
+                width:20px;
+                height:20px;
+                border:solid 2px black;
+                position: relative;
+                animation: animation123 2s infinite;
+            }
+            @keyframes animation123{
+                0% {
+                    left:0;
+                }
+                25%{
+                    background-color: blueviolet;
+                }
+                100%{
+                    left:200px;
+                }
+            }
+
+        </style>
+</head>
+<body>
+    <!--box property-->
+    <div id="box1" style="font-size: 50px;">welcome welcome welcome</div>
+    <!--animation property-->
+    <div class="xyz"></div>
+</body>
+</html>
